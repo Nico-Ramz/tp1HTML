@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="estructura">1. Estructura Básica del Documento HTML</h1>
+        <h5>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título</h5>
+    </header>
+
+    <section id="encabezados">
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <h2><b>Este texto está en Negrita</b></h2>
+        <h3><em>Este texto está en Cursiva</em></h3>
+        <h4><u>Este texto está subrayado</u></h4>
+        <h5><mark>Este texto está resaltado</mark></h5>
+        <h6><u>Este texto está subrayado</u></h6>
+    </section>
+
+    <section id="divisiones">
+        <h1>3. Divisiones y Agrupaciones de Contenido</h1>
+        <div>
+            <h2><b>Sección 1</b></h2>
+            <p>Contenido de la primera sección agrupado en un div</p>
+        </div>
+        <div>
+            <h2><b>Sección 2</b></h2>
+            <p>Contenido de la segunda sección agrupado en un div</p>
+        </div>
+    </section>
+
+    <section id="enlaces">
+        <h1>4. Enlace y listas</h1>
+        <nav>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura Básica</a></li>
+                <li><a href="#encabezados">Ir a Encabezados y Propiedades del Texto</a></li>
+                <li><a href="#divisiones">Ir a Divisiones y Agrupaciones de Contenido</a></li>
+            </ul>
+            <a href="https://tarjetasube.sube.gob.ar/subeweb/webforms/account/views/login.aspx">Ir a tarjeta Sube</a>
+            <a href="https://mendotran.oba.visionblo.com/">Ir a MendoTRAN</a>
+        </nav>
+
+        <div>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Soy un elemento 1</li>
+                <li>Soy un elemento 2</li>
+                <li>Soy un elemento 3</li>
+                <li>Soy un elemento 4</li>
+            </ol>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Soy un elemento 1</li>
+                <li>Soy un elemento 2</li>
+                <li>Soy un elemento 3</li>
+                <li>Soy un elemento 4</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h1>5. Elemento Multimedia</h1>
+        <div>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+                width="400px" height="200px" alt="Es una imagen">
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                controls width="400px" height="200px" alt="Es un video"></video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </div>
+    </section>
+
+    <section>
+        <h1>6. Tabla</h1>
+        <div>
+            <table style="border: 1px solid black; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid black;">Columna 1</th>
+                        <th style="border: 1px solid black;">Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th style="border: 1px solid black;">Fila 1, celda 1</th>
+                        <th style="border: 1px solid black;">Fila 1, celda 2</th>
+                    </tr>
+                    <tr>
+                        <th style="border: 1px solid black;">Fila 2, celda 1</th>
+                        <th style="border: 1px solid black;">Fila 2, celda 2</th>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th style="border: 1px solid black;">Total 1</th>
+                        <th style="border: 1px solid black;">Total 2</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h1>7. Formularios</h1>
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="desarollo@gmail.com" />
+                </div>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese su Nombre" />
+                </div>
+                <div>
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese su Apellido" />
+                </div>
+                <div>
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingrese su Edad" />
+                </div>
+            </fieldset>
+            <div>
+                <button type="submit">Enviar Formulario</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Propiedad de RAMZ.</p>
+    </footer>
+</body>
+</html>
